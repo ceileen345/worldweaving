@@ -1,16 +1,16 @@
 @font-face{
     font-family: "curly";
-    src: url(/fonts/Bringshoot.ttf);
+    src: url(/worldweaving/fonts/Bringshoot.ttf);
 }
 
 @font-face{
     font-family: "caviar";
-    src: url(/fonts/CaviarDreams.ttf);
+    src: url(/worldweaving/fonts/CaviarDreams.ttf);
 }
 
 @font-face{
     font-family: "caviarbold";
-    src: url(/fonts/CaviarDreams_Bold.ttf);
+    src: url(/worldweaving/fonts/CaviarDreams_Bold.ttf);
 }
 
 html, body{
