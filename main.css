@@ -1,0 +1,242 @@
+@font-face{
+    font-family: "curly";
+    src: url(/fonts/Bringshoot.ttf);
+}
+
+@font-face{
+    font-family: "caviar";
+    src: url(/fonts/CaviarDreams.ttf);
+}
+
+@font-face{
+    font-family: "caviarbold";
+    src: url(/fonts/CaviarDreams_Bold.ttf);
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+.back-to-top {
+    cursor:pointer;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    display:none;
+    margin-bottom: 20px;
+}
+ 
+
+body {
+    background-color: black;
+    color: white;
+    font-family: caviar;
+    font-size: 1.5rem;
+}
+
+
+body a {
+    color: white;
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+.grids {
+    margin: 10px;
+}
+
+.withpad { 
+    margin:10px; 
+    padding:75px; 
+    position: relative;
+    border-radius: 10px;
+}
+
+.linkpanel {
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  z-index: 1;
+
+  /* fixes overlap error in IE7/8, 
+     make sure you have an empty gif */
+  background-image: url('empty.gif');
+}
+
+.menubox {
+    display: none;
+}
+
+.col-sm-6 a{
+    font-family: caviarbold;
+}
+
+.col-md-3 a{
+    font-family: caviarbold;
+}
+
+.col-xs-12 a{
+    font-family: caviarbold;
+}
+
+.one {
+    background-color: #33ccff;
+}
+
+.one:hover {
+    background-color: #00ace6;
+}
+
+.two {
+    background-color: #008060;
+}
+
+.two:hover {
+    background-color: #004d39;
+}
+
+.three{
+    background-color: #33ccff;
+}
+
+.three:hover{
+    background-color: #00ace6;
+}
+
+.four{
+    background-color: #008060;
+}
+
+.four:hover{
+    background-color: #004d39;
+}
+
+.five {
+    background-color: #0086b3;
+}
+
+.five:hover{
+    background-color: #006080;
+}
+
+.six {
+    background-color: #00cc99;
+}
+
+.six:hover {
+    background-color: #009973;
+}
+
+.seven {
+    background-color: #0086b3;
+}
+
+.seven:hover {
+    background-color: #006080;
+}
+.eight {
+    background-color: #00cc99;
+}
+
+.eight:hover {
+    background-color: #009973;
+}
+
+.highlighted {
+    -webkit-box-shadow: 0 0 50px #ffffff;
+    -moz-box-shadow: 0 0 50px #ffffff;
+    box-shadow: 0 0 50px #ffffff;
+    cursor:pointer;
+    border-radius: 10px;
+}
+
+#bigtitle{
+    font-family: curly;
+    font-size: 10rem;
+
+}
+
+#worldbanner{
+    display: none;
+    font-family: caviarbold;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.menulist {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #595959;
+    border-radius: 10px;
+}
+
+.menulist li {
+    border-bottom: 1px solid black;
+}
+
+
+.menulist li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-decoration: none;
+}
+
+.menulist li a:hover {
+    background-color: #999999;
+}
+
+#sideone{
+    display: inline;
+    float:left;
+}
+
+#sidetwo{
+    float: right;
+}
+
+.pagetitle {
+    text-align: center;
+    font-family: curly;
+    font-size: 6rem;
+}
+
+p {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    font-size: 2rem;
+}
+
+#returnbutton{
+    display:table;
+    margin: 0 auto;
+    font-family: caviarbold;
+}
+
+#asktumblr:hover{
+    color:#33ccff;
+}
